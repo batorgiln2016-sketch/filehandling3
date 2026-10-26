@@ -2,7 +2,7 @@
 # Exercise 1
 
 def read_line(filename, line_number):
-        if line_number <= 0:
+    if line_number <= 0:
         return ""
     file = open(filename, "r")
     current_line = 1
